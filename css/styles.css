@@ -10286,6 +10286,11 @@ body {
 .projects-section .featured-text {
   padding: 2rem;
 }
+
+.ari-rec-img {
+  height: 100%;
+}
+
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
