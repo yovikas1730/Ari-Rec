@@ -10,6 +10,8 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+ 
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -370,7 +372,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 h3, .h3 {
@@ -10271,7 +10273,7 @@ body {
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 7rem;
   background: white(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
@@ -10279,7 +10281,7 @@ body {
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 2rem 0;
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -10365,3 +10367,18 @@ body {
   padding: 5rem 0;
 }
 
+.my_button{
+  margin-top: 1rem;
+  background-color : rgb(72, 74, 75);
+  color: rgb(255, 255, 255);
+}
+
+.my_button:hover{
+  background-color: rgb(175, 174, 174);
+  color: #040505;
+}
+
+#animate2{
+  font-size: 60px;
+  max-width: 60rem;
+}
